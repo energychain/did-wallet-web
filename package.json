@@ -1,0 +1,32 @@
+{
+  "name": "did-wallet-web",
+  "version": "0.5.0",
+  "description": "Web UI Wrapper for DID based Cloud Wallet to Browser",
+  "main": "lib/WebClient.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/did-wallet-web.git"
+  },
+  "keywords": [
+    "did",
+    "identity",
+    "wallet",
+    "service"
+  ],
+  "author": "STROMDAO GmbH <dev@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/did-wallet-web/issues"
+  },
+  "homepage": "https://github.com/energychain/did-wallet-web#readme",
+  "dependencies": {
+    "did-resolver": "^3.1.5",
+    "ethers": "^5.5.3",
+    "ethr-did": "^2.2.0",
+    "ethr-did-resolver": "^5.0.3",
+    "jsontokens": "^3.0.0"
+  }
+}
