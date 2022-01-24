@@ -1,6 +1,6 @@
 {
   "name": "did-wallet-web",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Web UI Wrapper for DID based Cloud Wallet to Browser",
   "main": "lib/WebClient.js",
   "scripts": {
