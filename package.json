@@ -1,6 +1,6 @@
 {
   "name": "did-wallet-web",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Web UI Wrapper for DID based Cloud Wallet to Browser",
   "main": "lib/WebClient.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "did-resolver": "^3.1.5",
     "ethers": "^5.5.3",
     "ethr-did": "^2.2.0",
-    "ethr-did-resolver": "^5.0.3",
+    "ethr-did-resolver": "^5.0.4",
     "jsontokens": "^3.0.0"
   }
 }
