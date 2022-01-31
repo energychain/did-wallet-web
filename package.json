@@ -1,10 +1,11 @@
 {
   "name": "did-wallet-web",
-  "version": "0.5.16",
+  "version": "0.5.17",
   "description": "Web UI Wrapper for DID based Cloud Wallet to Browser",
   "main": "lib/WebClient.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "node_modules/.bin/browserify -s WebClient -o dist/client.js lib/WebClient.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "ethr-did": "^2.2.0",
     "ethr-did-resolver": "^5.0.4",
     "jsontokens": "^3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
   }
 }
